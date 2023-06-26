@@ -103,7 +103,7 @@ class _EncyclopediaState extends State<Encyclopedia> {
                       Container(
                         padding: const EdgeInsets.all(10),
                         child: const Text(
-                          "AgroLab",
+                          "CropDoc",
                           style: TextStyle(
                             fontFamily: 'odibeeSans',
                             fontSize: 25,

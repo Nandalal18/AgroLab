@@ -111,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Container(
                         padding: const EdgeInsets.all(10),
                         child: const Text(
-                          "AgroLab",
+                          "CropDoc",
                           style: TextStyle(
                             fontFamily: 'odibeeSans',
                             fontSize: 25,

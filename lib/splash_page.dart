@@ -24,7 +24,7 @@ class _SplashPageState extends State<SplashPage> {
     return EasySplashScreen(
       logo: Image.asset('assets/app_icon.png'),
       title: const Text(
-        "AgroLab",
+        "CropDoc",
         style: TextStyle(
           fontSize: 45,
           fontFamily: 'odibeeSans',

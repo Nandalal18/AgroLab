@@ -103,7 +103,7 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                       Container(
                         padding: const EdgeInsets.all(10),
                         child: const Text(
-                          "AgroLab",
+                          "CropDoc",
                           style: TextStyle(
                             fontFamily: 'odibeeSans',
                             fontSize: 25,
@@ -169,7 +169,7 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                                     width: 150,
                                     height: 150,
                                     fit: BoxFit.cover,
-                                    image: AssetImage('assets/sagarp.png'),
+                                    image: AssetImage('assets/Praveen.jpeg'),
                                   ),
                                 ),
                               ),
@@ -188,7 +188,7 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                                         right: 10,
                                       ),
                                       child: NeumorphicText(
-                                        'Sagar Paul',
+                                        'Ch Praveen Kumar',
                                         style: const NeumorphicStyle(
                                           color: Colors.black,
                                         ),
@@ -206,7 +206,7 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                                         GestureDetector(
                                           onTap: () async {
                                             String surl =
-                                                'https://www.linkedin.com/in/sagar-paul-6b4b9b247/';
+                                                'https://www.linkedin.com';
                                             Uri url = Uri.parse(surl);
                                             await launchUrl(url,
                                                 mode: LaunchMode
@@ -226,7 +226,7 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                                         GestureDetector(
                                           onTap: () async {
                                             String surl =
-                                                'https://github.com/sagar-alias-jacky';
+                                                'https://github.com';
                                             Uri url = Uri.parse(surl);
                                             await launchUrl(url,
                                                 mode: LaunchMode
@@ -245,301 +245,10 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                               )
                             ],
                           ),
-                          Column(
-                            children: [
-                              Neumorphic(
-                                margin: const EdgeInsets.only(
-                                  left: 20,
-                                  right: 20,
-                                ),
-                                style: NeumorphicStyle(
-                                  border: NeumorphicBorder(
-                                    color: accentColor,
-                                    width: 2,
-                                  ),
-                                ),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(10),
-                                  child: const Image(
-                                    width: 150,
-                                    height: 150,
-                                    fit: BoxFit.cover,
-                                    image: AssetImage('assets/paulg.jpg'),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                width: 150,
-                                margin: const EdgeInsets.only(
-                                  top: 10,
-                                  left: 20,
-                                  right: 20,
-                                ),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Container(
-                                      margin: const EdgeInsets.only(
-                                        right: 10,
-                                      ),
-                                      child: NeumorphicText(
-                                        'Paul G',
-                                        style: const NeumorphicStyle(
-                                          color: Colors.black,
-                                        ),
-                                        textStyle: NeumorphicTextStyle(
-                                          fontSize: 15,
-                                          fontFamily: 'Poppins',
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                    ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        GestureDetector(
-                                          onTap: () async {
-                                            String surl =
-                                                'https://linkedin.com/in/paul-g-tharayil-04a9971b1';
-                                            Uri url = Uri.parse(surl);
-                                            await launchUrl(url,
-                                                mode: LaunchMode
-                                                    .externalApplication);
-                                          },
-                                          child: Container(
-                                            margin: const EdgeInsets.only(
-                                              right: 10,
-                                            ),
-                                            child: SvgPicture.asset(
-                                              'assets/linkedin.svg',
-                                              width: 20,
-                                              height: 20,
-                                            ),
-                                          ),
-                                        ),
-                                        GestureDetector(
-                                          onTap: () async {
-                                            String surl =
-                                                'https://github.com/paul1947';
-                                            Uri url = Uri.parse(surl);
-                                            await launchUrl(url,
-                                                mode: LaunchMode
-                                                    .externalApplication);
-                                          },
-                                          child: SvgPicture.asset(
-                                            'assets/github.svg',
-                                            width: 20,
-                                            height: 20,
-                                          ),
-                                        ),
-                                      ],
-                                    )
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
+
                         ],
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Column(
-                            children: [
-                              Neumorphic(
-                                margin: const EdgeInsets.only(
-                                  top: 20,
-                                  left: 20,
-                                ),
-                                style: NeumorphicStyle(
-                                  border: NeumorphicBorder(
-                                    color: accentColor,
-                                    width: 2,
-                                  ),
-                                ),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(10),
-                                  child: const Image(
-                                    width: 150,
-                                    height: 150,
-                                    fit: BoxFit.cover,
-                                    image: AssetImage('assets/varunc.jpg'),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                width: 150,
-                                margin: const EdgeInsets.only(
-                                  top: 10,
-                                  left: 20,
-                                ),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Container(
-                                      margin: const EdgeInsets.only(
-                                        right: 10,
-                                      ),
-                                      child: NeumorphicText(
-                                        'Varun C',
-                                        style: const NeumorphicStyle(
-                                          color: Colors.black,
-                                        ),
-                                        textStyle: NeumorphicTextStyle(
-                                          fontSize: 15,
-                                          fontFamily: 'Poppins',
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                    ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        GestureDetector(
-                                          onTap: () async {
-                                            String surl =
-                                                'https://linkedin.com/in/varun-c-b598101a4';
-                                            Uri url = Uri.parse(surl);
-                                            await launchUrl(url,
-                                                mode: LaunchMode
-                                                    .externalApplication);
-                                          },
-                                          child: Container(
-                                            margin: const EdgeInsets.only(
-                                              right: 10,
-                                            ),
-                                            child: SvgPicture.asset(
-                                              'assets/linkedin.svg',
-                                              width: 20,
-                                              height: 20,
-                                            ),
-                                          ),
-                                        ),
-                                        GestureDetector(
-                                          onTap: () async {
-                                            String surl =
-                                                'https://github.com/varunc20101';
-                                            Uri url = Uri.parse(surl);
-                                            await launchUrl(url,
-                                                mode: LaunchMode
-                                                    .externalApplication);
-                                          },
-                                          child: SvgPicture.asset(
-                                            'assets/github.svg',
-                                            width: 20,
-                                            height: 20,
-                                          ),
-                                        ),
-                                      ],
-                                    )
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Neumorphic(
-                                margin: const EdgeInsets.only(
-                                  left: 20,
-                                  top: 20,
-                                  right: 20,
-                                ),
-                                style: NeumorphicStyle(
-                                  border: NeumorphicBorder(
-                                    color: accentColor,
-                                    width: 2,
-                                  ),
-                                ),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(10),
-                                  child: const Image(
-                                    width: 150,
-                                    height: 150,
-                                    fit: BoxFit.cover,
-                                    image: AssetImage('assets/nihalm.jpg'),
-                                  ),
-                                ),
-                              ),
-                              Container(
-                                width: 150,
-                                margin: const EdgeInsets.only(
-                                  top: 10,
-                                  left: 20,
-                                  right: 20,
-                                ),
-                                child: Row(
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Container(
-                                      margin: const EdgeInsets.only(
-                                        right: 10,
-                                      ),
-                                      child: NeumorphicText(
-                                        'Nihal Manoj',
-                                        style: const NeumorphicStyle(
-                                          color: Colors.black,
-                                        ),
-                                        textStyle: NeumorphicTextStyle(
-                                          fontSize: 15,
-                                          fontFamily: 'Poppins',
-                                          fontWeight: FontWeight.bold,
-                                        ),
-                                      ),
-                                    ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        GestureDetector(
-                                          onTap: () async {
-                                            String surl =
-                                                'https://www.linkedin.com/in/nihal-james-manoj-3b7364246';
-                                            Uri url = Uri.parse(surl);
-                                            await launchUrl(url,
-                                                mode: LaunchMode
-                                                    .externalApplication);
-                                          },
-                                          child: Container(
-                                            margin: const EdgeInsets.only(
-                                              right: 10,
-                                            ),
-                                            child: SvgPicture.asset(
-                                              'assets/linkedin.svg',
-                                              width: 20,
-                                              height: 20,
-                                            ),
-                                          ),
-                                        ),
-                                        GestureDetector(
-                                          onTap: () async {
-                                            String surl =
-                                                'https://github.com/Blieve4ever';
-                                            Uri url = Uri.parse(surl);
-                                            await launchUrl(url,
-                                                mode: LaunchMode
-                                                    .externalApplication);
-                                          },
-                                          child: SvgPicture.asset(
-                                            'assets/github.svg',
-                                            width: 20,
-                                            height: 20,
-                                          ),
-                                        ),
-                                      ],
-                                    )
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-                        ],
-                      ),
+
                       Neumorphic(
                         padding: const EdgeInsets.all(
                           10,
@@ -558,7 +267,7 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             const Text(
-                              'About AgroLab',
+                              'About CropDoc',
                               style: TextStyle(
                                 fontFamily: 'odibeeSans',
                                 fontSize: 30,
@@ -570,7 +279,7 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                                 top: 10,
                               ),
                               child: const Text(
-                                'AgroLab was created as part of our mini project work during the penultimate year of our CS Engineering Graduation course.\n\nAgroLab was developed with an intention to reduce the time taken to identify various plant diseases with a high detection accuracy. Early detection and counter measures will help prevent large scale losses to the farmers, also improving crop productivity.',
+                                'CropDoc was created as part of our mini project work during the penultimate year of our CS Engineering Graduation course.\n\CropDoc was developed with an intention to reduce the time taken to identify various plant diseases with a high detection accuracy. Early detection and counter measures will help prevent large scale losses to the farmers, also improving crop productivity.',
                                 style: TextStyle(
                                   fontSize: 10,
                                   color: Colors.black,
@@ -589,38 +298,10 @@ class _AppInfoScreenState extends State<AppInfoScreen> {
                           left: 20,
                         ),
                         child: SvgPicture.asset(
-                          'assets/made-with-love-in-india.svg',
+                          'assets/vignan.jpg',
                         ),
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Container(
-                            alignment: Alignment.topLeft,
-                            margin: const EdgeInsets.only(
-                              top: 10,
-                              left: 20,
-                            ),
-                            child: SvgPicture.asset(
-                              'assets/flutter.svg',
-                              width: 100,
-                              height: 35,
-                            ),
-                          ),
-                          Container(
-                            alignment: Alignment.topLeft,
-                            margin: const EdgeInsets.only(
-                              top: 10,
-                              left: 10,
-                            ),
-                            child: SvgPicture.asset(
-                              'assets/tensorflow.svg',
-                              width: 100,
-                              height: 35,
-                            ),
-                          ),
-                        ],
-                      )
+
                     ],
                   ),
                 ],

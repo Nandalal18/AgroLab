@@ -252,7 +252,7 @@ class _LeafScanState extends State<LeafScan> {
                       Container(
                         padding: EdgeInsets.all(10),
                         child: Text(
-                          "AgroLab",
+                          "CropDoc",
                           style: TextStyle(
                             fontFamily: 'odibeeSans',
                             fontSize: 25,
